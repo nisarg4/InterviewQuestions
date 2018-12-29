@@ -11,18 +11,19 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 //Algorithm:
 /* lo  --> Starting index,  hi  --> Ending index */
 
-quickSort(arr[], lo, hi)
-{
-    if (lo <= hi)
-    {
-        /* index is partitioning index, arr[pi] is now
-           at right place */
-        pi = partition(arr, low, high);
+	quickSort(arr[], lo, hi)
+	{
+	    if (lo <= hi)
+	    {
+	        index is partitioning index, arr[pi] is now
+	           at right place */
+	        pi = partition(arr, low, high);
 
         quicksort(arr, low, index - 1);  // before index
+        
         quicksort(arr, index, hi); // from index 
-    }
-}
+    	}
+	}
 
 Time Complexity : 
 	best: O(nlog(n))
