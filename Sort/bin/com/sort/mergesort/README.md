@@ -1,4 +1,4 @@
-Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, lo, mid, hi) is key process that assumes that arr[lo..mid] and arr[mid+1..hi] are sorted and merges the two sorted sub-arrays into one.
+Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. The merge() function is used for merging two halves. The merging two halves is key process that assumes that arr[lo..mid] and arr[mid+1..hi] are sorted and merges the two sorted sub-arrays into one.
 
 Algorithm:
 

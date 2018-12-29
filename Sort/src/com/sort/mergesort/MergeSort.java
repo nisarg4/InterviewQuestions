@@ -35,6 +35,7 @@ public class MergeSort {
 			else
 				aux[k++] = arr[i++];
 		}
+		// Copy merged portion back into original array.
 		for(i = lo; i <=hi; i++)
 			arr[i] = aux[i-lo];
 	}
