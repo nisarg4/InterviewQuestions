@@ -3,7 +3,7 @@ Merge Sort is a Divide and Conquer algorithm. It divides input array in two halv
 Algorithm:
 
 	MergeSort(arr[], lo,  hi)
-	If r > l
+	If hi > lo
 	     1. Find the middle point to divide the array into two halves:  
 	             middle mid = lo + (hi-lo)/2
 	     2. Call mergeSort for first half:   
