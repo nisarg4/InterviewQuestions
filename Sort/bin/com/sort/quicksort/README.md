@@ -28,7 +28,7 @@ Time Complexity :
 	best: O(nlog(n))
 	average: O(nlog(n))
 	worst: O(n^2) (worst case occurs when the array is already sorted)
-				  (to avoid worst case we assign the pivot as random)
+				  (to avoid worst case we can assign the pivot as random)
 			
 Space Complexity:
 	best: O(1)
