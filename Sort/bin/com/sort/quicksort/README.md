@@ -19,9 +19,9 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 	           at right place */
 	        pi = partition(arr, low, high);
 
-        quicksort(arr, low, index - 1);  // before index
+        	quicksort(arr, low, index - 1);  // before index
         
-        quicksort(arr, index, hi); // from index 
+        	quicksort(arr, index, hi); // from index 
     	}
 	}
 
