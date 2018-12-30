@@ -1,4 +1,4 @@
-package ZerosOnes;
+package com.zerosOnes;
 
 public class ZerosOnes {
 	
