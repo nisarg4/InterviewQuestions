@@ -1,0 +1,13 @@
+Given a List of zeros and ones write a function to move all 0's to the start and 1's to the end
+
+Example:
+
+Input: 0 -> 1 -> 1 -> 0 -> 1 -> 0
+Output: 0 -> 0 -> 0 -> 1 -> 1 -> 1
+
+Solution:
+
+We create two nodes head_0 and head_1
+
+when we find 0 we add a node with data 0 to head_0 and we add a node with data 1 to head_1
+we then point the head_0 to head_1 and return head_0
