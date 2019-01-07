@@ -1,0 +1,3 @@
+Given a number x, determine whether the given number is Armstrong number or not. A positive integer of n digits is called an Armstrong number of order n (order is number of digits) if.
+A number 𝑎 is an Armstrong Number or narcissistic number if it is equal to the sum of its own digits raised to the power of the number of digits. This definition is dependent on the base, 𝑏, used to represent the number.
+eg: 153 = 1^3 + 5^3 + 3^3 //Amstrong number
