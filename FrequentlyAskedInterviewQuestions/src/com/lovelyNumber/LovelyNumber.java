@@ -9,7 +9,7 @@ public class LovelyNumber {
 		{
 			if(check(i))
 			{
-				System.out.println(i);
+//				System.out.println(i);
 				count++;
 			}
 		}
